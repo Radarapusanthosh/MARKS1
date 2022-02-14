@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>cd
+
+
+
+
+</head>
+<body>
+    <h1 id="india">I LOVE MY INDIA</h1>
+
+<button id="button2" onclick="changeheading()">click me</button>
+<button id="button3" onclick="heading()">clickme</button>
+<button id="button4" onclick="hero()">clikme</button>
+<h2 id="color">IAM PROUD TO BE AN INDIAN</h2>
+<button id="button5" onclick="changecolor()">clik me</button>
+<button id="button6" onclick= " blue() ">clikme</button>
+<button id="button7" onclick="yellow()">clickme</button>
+<h2 id="font">IAM PLAYING CRICKET</h2>
+<button id="button8" onclick="changefont()">clik me</button>
+<button id="button9" onclick=" change()">clickme</button>
+<button id="button1" onclick="myname()">clickme</button>
+
+
+
+    <script>
+
+        function changeheading(){
+
+            document.getElementById( "india").innerHTML="Iam an Indian"
+
+
+        }
+        function changecolor(){
+            document.getElementById("color").style.color="red"
+        
+        }
+        function changefont(){
+
+            document.getElementById("font").style.fontSize="20px"
+        }
+        function blue(){
+            document.getElementById("color").style.color="blue"
+        }
+        function change(){
+            document.getElementById("font").style.fontSize="40px"
+        }
+        function myname(){
+            document.getElementById("font").style.fontSize="60px"
+        }
+    
+        function yellow(){
+            document.getElementById("color").style.color="green"
+        }
+        function heading(){
+            document.getElementById("india").innerHTML="Indai won the 2011 world cup"
+        }
+        function hero(){
+            document.getElementById("india").innerHTML="India is still developing country"
+        }
+
+    </script>
+
+
+</body>
+</html>
