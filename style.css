@@ -6,7 +6,7 @@
 body{
     text-align: center;
     background-color: gray;
-    color: palevioletred;
+    
     font-size: 30px;
 }
 #button2{
@@ -15,30 +15,43 @@ body{
     font-size: 20px;
 }#button3{
     color: brown;
-    background-color: chartreuse;
+    background-color: orangered;
     font-size: 20px;
 }#button4{
     color: brown;
-    background-color: chartreuse;
+    background-color: violet;
     font-size: 20px;
 }#button5{
     color: brown;
-    background-color: chartreuse;
+    background-color: green;
     font-size: 20px;
 }#button6{
     color: brown;
-    background-color: chartreuse;
+    background-color: yellow;
     font-size: 20px;
 }#button7{
     color: brown;
-    background-color: chartreuse;
+    background-color: blue;
     font-size: 20px;
 }#button8{
     color: brown;
-    background-color: chartreuse;
+    background-color: pink;
     font-size: 20px;
 }#button9{
     color: brown;
-    background-color: chartreuse;
+    background-color: olivedrab;
     font-size: 20px;
+}
+h4{
+    color: orangered;
+}
+h1{
+    color: aqua;
+}
+h2{
+    color:crimson;
+
+}
+h3{
+    color:blue;
 }
